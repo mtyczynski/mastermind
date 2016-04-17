@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mastermind</title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <script src='jquery.min.js'></script>
+    <script src='/js/skrypt.js'></script>
+  </head>
+  <body>
+   <div class='wrap'>
+      <div id="place">
+        <h2>Mastermind!</h2>
+        <table>
+          <tr>
+            <td>Number of digits:</td>
+            <td><input type="text" id="size" value='5'/></td>
+          </tr>
+          <tr>
+            <td>Digits range:</td>
+            <td><input type="text" id="dim" value='9'/></td>
+          </tr>
+          <tr>
+            <td>Number of attempts:</td>
+            <td><input type="text" id="max" value='0'/><br/><span class='info'>(0 for infinity)</span></td>
+          </tr>
+          <tr>
+            <td><button id="start">Start</button></td>
+          </tr> 
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
